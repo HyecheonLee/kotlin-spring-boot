@@ -25,3 +25,4 @@ class SecurityConfig(private val customOAuth2UserService: CustomOAuth2UserServic
                 .userService(customOAuth2UserService)
     }
 }
+//nohup java -jar /home/ec2-user/app/step1/kotlin-spring-boot -Dspring.config.location=classpath:/application.properties, /home/ec2-user/app/application-real-db.properties -Dspring.profiles.active=real 2>&1 &
